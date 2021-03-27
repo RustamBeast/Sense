@@ -114,10 +114,14 @@ p{
         margin-bottom: 5rem;
     }
     .contact img{
-        max-width: 50%;
+        max-width: 60%;
     }
     p {
         display: inline-block;
         width: 80%;
+    }
+    .zoom img{
+        max-width: 40%;
+        transition: 2s ease-in-out;
     }
 }
