@@ -17,7 +17,10 @@ const observer = new IntersectionObserver(function(entries, observer){
         if (entry.target == sectionOne){
             entry.target.classList.toggle('zoom');
         }
-        if (entry.target == sectionAbout || entry.target == sectionAbout2){
+        if (entry.target == sectionAbout){
+            entry.target.classList.toggle('zoom2');
+        }
+        if (entry.target == sectionAbout2){
             entry.target.classList.toggle('zoom2');
         }
         entry.target.classList.toggle('inverse');
