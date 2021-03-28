@@ -6,7 +6,7 @@ const sections = document.querySelectorAll('section');
 const options = { 
     root: null,
     threshold: 0,
-    rootMargin: "-350px"
+    rootMargin: "-150px"
 };
 
 const observer = new IntersectionObserver(function(entries, observer){
