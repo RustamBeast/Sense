@@ -115,7 +115,7 @@ p{
         flex-direction: column;
         align-items: center;
     }
-    .about img{
+    .about2 img, .about img{
         max-width: 50%;
         margin-bottom: 5rem;
     }
